@@ -1,0 +1,88 @@
+First well known cipher, the substitution cipher, know as caesar cipher/
+Al-Kindi broke ceaser cipher. Count up the frequency of letters and shif it to find how far it has it come from standard frequency ;frequency analysis.
+
+
+Polyalphabetic cipher; 
+A strong cipher is the one which disguises your finger print.
+multiple shifts; by using a secret word.
+remember snake?
+the longer the shift word the harder it to break the cipher.
+##############################################################
+eg: shift word: SNAKE -> get the alphabet position in numerals: 19-13-1-11-5
+Now shift each letter in message in this degree.
+##############################################################
+Code breakers look for information leak
+They dont look for the shift word!!!
+The length of the shift word is what they will be interested!!!
+From there its only a matter of breaking multiple ceaser ciphers!!!
+
+
+strongest possible encryption methond; ONE TIME PAD
+ceaser shift -> shifted every letter by one patter. so total 26 possible patters.
+OTP -> total possible shift 26^x
+
+##############################################################
+eg: for a five letter word to be encripted roll the dice 5 times and shift the word
+with respective key. 
+##############################################################
+
+frequecy stability property!!!!!!!!
+dont look for frequency of one property look for frequency of sequences.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+aug5 1857 - 4300km atlantic ocean cable
+
+enigma encryption: electromechanical rotor machine invented by german engineer at the end of WW1
+enigma could have setup into 150 million million million ways!!!
+
+ingredients:
+Get identical machines at  A and B
+Agree on initial position: key setting
+Align machine to same postion
+Finally cycle through the identical operations to achieve identical sequences.
+
+Rotor encoder machine
+key settings key space
+
+security depends on both the size of the key space and the randomness of the key settings
+
+############################################################################################
+pseudo number generators
+perferct secrecy
+message space = key space = encryption space
+
+1946 van neumann eniac
+
+(middle squares method)
+seed = truly random number
+x = seed * seed
+y = take the middle of (x)
+
+eg : 
+seed = 121
+x = 121 *121 = 14641
+y = 464
+
+take y as next seed repeat the process
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Randomly generated vs pseudorandom sequence
+pseudorandom sequence eventually repeats
+period = length before a pseudorandom code repeats
+period propotional to length of seed
+
+seed space?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+what is possible, vs a what is possible within a reason amount of time
+practically secure vs perfectly secret
+
+
+
+
+
+
+
+
