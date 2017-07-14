@@ -3,6 +3,7 @@
 ##Output: ciphered text.
 ##Create a method to Decipher by ; Input: cipher text, key
 
+
 class SubCipher:
 
     def __init__(self, text, key):
@@ -47,7 +48,7 @@ class SubCipher:
         print("---------------------------------------------------------------")
 
 def main():
-    ins = SubCipher("To be or not to be, That is the question", 'g')
+    ins = SubCipher("To be or not to be, That is the question", 'g') #change text and key here
     ins.cipher()
     ins.allCipher()
 
